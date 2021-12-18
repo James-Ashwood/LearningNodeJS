@@ -1,0 +1,30 @@
+{
+  "name": "learningnodejs",
+  "version": "1.0.0",
+  "description": "All the programs from my NodeJS and web development course.",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-Ashwood/LearningNodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "ejs",
+    "learning"
+  ],
+  "author": "James Ashwood",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/James-Ashwood/LearningNodeJS/issues"
+  },
+  "homepage": "https://github.com/James-Ashwood/LearningNodeJS#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
